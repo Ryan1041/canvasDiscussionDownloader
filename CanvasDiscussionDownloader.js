@@ -4,10 +4,11 @@
 // @version      2026-02-04
 // @description  Downloads discussion posts from Canvas with post-level word counts and user statistics.
 // @author       Ryan Whitt
-// @match        https://*/*  
+// @match        https://*.instructure.com/courses/*/discussion_topics/*
+// @match        https://*.instructure.com/courses/*/discussions/*
+// @match        https://canvas.*.edu/courses/*
 // @grant        none
 // ==/UserScript==
-
 // NOTE: if you want, change @match to your school/organization's base URL to only activate tampermonkey there
 
 // For use with TamperMonkey in Chrome, primarily
